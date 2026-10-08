@@ -1,9 +1,10 @@
-job_queue: sparky
+job_queue: buzzsaw
 provision_data:
   distro: noble
 reserve_data:
   ssh_keys:
-    - lp:deusebio
+    - lp:dariofaccin
+    - gh:dariofaccin
   timeout: 21600 # 6 hours
 test_data:
   test_cmds: |

@@ -2,7 +2,6 @@
 
 sudo snap install terraform --channel latest/stable --classic 
 sudo snap install concierge --classic 
-sudo snap install juju --channel 3.6/stable --classic
 
 sudo concierge prepare --trace
 
@@ -12,4 +11,4 @@ echo "deb [signed-by=/usr/share/keyrings/helm.gpg] https://packages.buildkite.co
 sudo apt-get update
 sudo apt-get install helm
 
-git clone git@github.com:canonical/charmed-kubeflow-solutions.git
+git clone https://github.com/canonical/charmed-kubeflow-solutions.git
